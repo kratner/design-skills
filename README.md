@@ -1,11 +1,14 @@
 # Design Skills
 
-Five portable Claude Code skills for evidence-based design work. Use them in your personal projects, Ace Media work, or share selectively with your team.
+Portable, evidence-based design tools and frameworks. Use in your personal projects, Ace Media work, or share selectively with your team. Extensible across platforms (Claude Code skills, web tools, Figma plugins, team documentation).
 
 ## Quick Start
 
 ```bash
-# Clone into Claude Code skills directory (one-time setup)
+# Clone the repo
+git clone https://github.com/kratner/design-skills ~/design-skills
+
+# For Claude Code skills:
 git clone https://github.com/kratner/design-skills ~/.claude/skills/design-skills
 
 # In Claude Code, invoke any skill
@@ -16,7 +19,7 @@ git clone https://github.com/kratner/design-skills ~/.claude/skills/design-skill
 /use awesome-design-lookup
 ```
 
-## The Five Skills
+## Current Skills
 
 ### 1. **power-design-audit**
 Validates any landing page or design section against 10 critical design principles from Power Design. Returns a scorecard (pass/fail on each rule) + actionable fixes.
@@ -235,16 +238,26 @@ See `TEAM_SHARING.md` for templates and talking points.
 ```
 design-skills/
 ├── README.md                    # This file
-├── TEAM_SHARING.md             # How to intro skills to your team
-├── INSTALLATION.md             # Detailed setup instructions
-├── power-design-audit.md        # Validate against 10 rules
-├── color-system-builder.md      # Generate 60-30-10 palette
-├── design-extract.md           # Extract brand DNA from URL
-├── layout-validator.md         # Check F-pattern, grid, whitespace
-├── awesome-design-lookup.md    # Reference 73 brands
-├── .gitignore                  # Standard repo ignores
-└── LICENSE                     # MIT (same as other projects)
+├── INSTALLATION.md             # Setup instructions (Claude Code, web, team)
+├── TEAM_SHARING.md             # How to introduce tools to your team
+│
+├── claude-code/                # Claude Code skills
+│   ├── power-design-audit.md
+│   ├── color-system-builder.md
+│   ├── design-extract.md
+│   ├── layout-validator.md
+│   └── awesome-design-lookup.md
+│
+├── templates/                  # Reusable templates (DESIGN.md, etc.)
+├── reference/                  # Design principles, frameworks, research
+├── web/                        # (Future) Web-based tools
+├── figma/                      # (Future) Figma plugins
+│
+├── .gitignore
+└── LICENSE
 ```
+
+**Note:** Current focus is Claude Code skills. Easily extensible to web tools, Figma plugins, team documentation templates, etc.
 
 ---
 

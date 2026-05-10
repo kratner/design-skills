@@ -2,15 +2,30 @@
 
 ## For Keith (Personal Use)
 
-### Quick Setup (2 minutes)
+### Option 1: Claude Code Skills Only (2 minutes)
 
 ```bash
-# Clone the repo into your Claude Code skills directory
+# Clone just the Claude Code skills directory
 git clone https://github.com/kratner/design-skills ~/.claude/skills/design-skills
+cd ~/.claude/skills/design-skills
+# Copy Claude Code skills to root level for Claude Code to find them
+cp claude-code/*.md .
 
 # Verify installation
 ls ~/.claude/skills/design-skills/*.md
 # Should list: power-design-audit.md, color-system-builder.md, etc.
+```
+
+### Option 2: Full Repo (Recommended for Future Extensibility)
+
+```bash
+# Clone the entire repo for access to all resources
+git clone https://github.com/kratner/design-skills ~/design-skills
+
+# Link Claude Code skills
+ln -s ~/design-skills/claude-code ~/.claude/skills/design-skills
+# Or copy them:
+cp ~/design-skills/claude-code/*.md ~/.claude/skills/design-skills/
 ```
 
 ### Test It Works
@@ -37,11 +52,13 @@ Run this whenever you want the latest version (or set a monthly reminder).
 
 ### Each Team Member: 5-Minute Setup
 
-If a team member wants to use design skills:
+If a team member wants to use Claude Code skills:
 
-1. **They clone the repo:**
+1. **They clone the Claude Code skills:**
    ```bash
    git clone https://github.com/kratner/design-skills ~/.claude/skills/design-skills
+   cd ~/.claude/skills/design-skills
+   cp claude-code/*.md .
    ```
 
 2. **They test in Claude Code:**
@@ -50,6 +67,15 @@ If a team member wants to use design skills:
    ```
 
 3. **They're done.** No config, no dependencies, no special setup.
+
+### If They Want the Full Repo:
+
+```bash
+git clone https://github.com/kratner/design-skills ~/design-skills
+cp ~/design-skills/claude-code/*.md ~/.claude/skills/design-skills/
+```
+
+This gives them access to templates, reference materials, and future tools beyond Claude Code.
 
 ### Share This Link
 
@@ -262,24 +288,50 @@ All you need:
 
 ## File Structure After Installation
 
-After successful setup, you'll have:
+After successful setup (Option 1), you'll have:
 
 ```
 ~/.claude/skills/design-skills/
+├── power-design-audit.md        (Claude Code skill)
+├── color-system-builder.md      (Claude Code skill)
+├── design-extract.md            (Claude Code skill)
+├── layout-validator.md          (Claude Code skill)
+├── awesome-design-lookup.md     (Claude Code skill)
+├── claude-code/                 (source files, can ignore)
 ├── README.md
 ├── INSTALLATION.md
 ├── TEAM_SHARING.md
-├── power-design-audit.md
-├── color-system-builder.md
-├── design-extract.md
-├── layout-validator.md
-├── awesome-design-lookup.md
 ├── .gitignore
 ├── LICENSE
-└── .git/                    (git metadata)
+└── .git/                        (git metadata)
 ```
 
-All `.md` files are skills. They'll auto-load in Claude Code.
+All `.md` files in root auto-load as Claude Code skills.
+
+### Full Repo Structure (Option 2)
+
+```
+~/design-skills/
+├── README.md                    # Overview
+├── INSTALLATION.md              # Setup guide
+├── TEAM_SHARING.md              # Team intro guidelines
+│
+├── claude-code/                 # Claude Code skills
+│   ├── power-design-audit.md
+│   ├── color-system-builder.md
+│   ├── design-extract.md
+│   ├── layout-validator.md
+│   └── awesome-design-lookup.md
+│
+├── templates/                   # DESIGN.md templates, etc. (future)
+├── reference/                   # Design principles, frameworks (future)
+├── web/                         # Web tools (future)
+├── figma/                       # Figma plugins (future)
+│
+├── .gitignore
+├── LICENSE
+└── .git/
+```
 
 ---
 

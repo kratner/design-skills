@@ -65,7 +65,7 @@ Minimum 40% of bounding box must be empty space. Too dense = chaotic.
 ## Example Validation
 
 ```
-LAYOUT VALIDATOR: ClickFunnels Opt-In Page
+LAYOUT VALIDATOR: Opt-In Landing Page
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 INPUT LAYOUT:
@@ -186,7 +186,7 @@ When you describe your layout, this skill checks:
 - You've roughed out a layout but want feedback before building
 - A section feels off, but you can't name why
 - You're moving from desktop to mobile design
-- Before finalizing in ClickFunnels or Figma
+- Before finalizing a design
 - As a final check before handing off to a developer
 
 ## Integration with Other Skills
@@ -197,4 +197,4 @@ When you describe your layout, this skill checks:
 
 ---
 
-**Output includes specific fixes** — pixel values you can implement immediately in ClickFunnels or CSS.
+**Output includes specific fixes** — pixel values you can implement immediately in your design tool or CSS.

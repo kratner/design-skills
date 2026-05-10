@@ -8,7 +8,7 @@ Reusable DESIGN.md templates and configuration examples for different project ty
 
 ## Planned
 
-- `DESIGN.landing-page.md` — For ClickFunnels and web landing pages
+- `DESIGN.landing-page.md` — For web landing pages and conversion-focused designs
 - `DESIGN.app.md` — For web applications and dashboards
 - `DESIGN.motion.md` — For video and animation projects
 - `DESIGN.print.md` — For print and static design

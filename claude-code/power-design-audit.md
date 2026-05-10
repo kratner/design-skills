@@ -40,7 +40,7 @@ The audit returns:
 ## Example Output
 
 ```
-POWER DESIGN AUDIT: ClickFunnels Opt-In Page
+POWER DESIGN AUDIT: Opt-In Landing Page
 
 SCORECARD:
 ✅ Rule 1: One Idea (sign-up focus) — PASS

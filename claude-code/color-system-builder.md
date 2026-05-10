@@ -109,7 +109,7 @@ If you want more control, you can specify:
 
 ## When to Use This Skill
 
-- Starting a new ClickFunnels page and need palette fast
+- Starting a new project and need palette fast
 - Have a brand color but need full system (backgrounds, borders, text)
 - Need WCAG contrast validation before building
 - Want opacity variants for layering effects
@@ -123,4 +123,4 @@ If you want more control, you can specify:
 
 ---
 
-**Output is copy-paste ready** — take the hex values directly into ClickFunnels, Figma, CSS, or your design tool.
+**Output is copy-paste ready** — take the hex values directly into your design tool, CSS, or any platform.

@@ -64,7 +64,7 @@ These are deep reference tools, not team-facing:
 In your first meeting or Slack conversation:
 
 **What to do:**
-- Share a screenshot of `power-design-audit` output from a ClickFunnels page you designed
+- Share a screenshot of `power-design-audit` output from a project you designed
 - Say: "I'm using a framework to validate designs against 10 principles from research. Here's what it caught. Interested?"
 
 **What to expect:**
@@ -125,9 +125,8 @@ validated for contrast.
 It saves me ~30 minutes per project, and I always hit WCAG AA 
 without thinking about it. 
 
-Might be useful for anyone building in ClickFunnels, or it might 
-not be — depends on your workflow. Wanted to show you in case it's 
-interesting."
+Might be useful for your workflow, or it might not — depends on 
+what you're building. Wanted to show you in case it's interesting."
 
 [Answer questions if they have them]
 [Drop the repo link in Slack: github.com/kratner/design-skills]
@@ -211,8 +210,8 @@ That's fine. Some people:
 
 You work with a team on shared projects. Here's how to integrate design skills naturally:
 
-**Scenario 1: You finish a project**
-- Share the project + a `DESIGN.md` file in your shared space
+**Scenario 1: You finish a design**
+- Share the design + a `DESIGN.md` file in your shared space
 - Include a link to the power-design-audit results (if you want)
 - Someone curious will ask: "How did you do that?"
 

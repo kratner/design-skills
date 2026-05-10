@@ -387,7 +387,7 @@ That's it. No cleanup required.
 1. ✅ Clone the repo (see Quick Setup above)
 2. ✅ Test one skill in Claude Code
 3. ✅ Read README.md for skill descriptions
-4. ✅ Use in your next ClickFunnels project
+4. ✅ Use in your next project
 5. ✅ (Optional) Share with team if helpful
 
 ---

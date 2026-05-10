@@ -67,7 +67,7 @@ Checks your layout against three foundational principles: F-pattern eye flow, 8p
 - You've roughed out a layout but want feedback
 - Moving from desktop to mobile design
 - A section feels dense or chaotic
-- Before finalizing in ClickFunnels or Figma
+- Before finalizing any design
 
 **Example:** `/use layout-validator` → Describe your sections → Get feedback on F-pattern flow, spacing alignment, and whitespace ratio
 
@@ -88,7 +88,7 @@ Access 73 pre-built brand design systems instantly. Ask how any brand does somet
 
 ## Who This Is For
 
-**Personal Design Work:** ClickFunnels landing pages, demo reels, client projects, branding work. Full access to all skills.
+**Personal Design Work:** Landing pages, demo reels, client projects, branding work. Full access to all skills.
 
 **Team Collaboration:** Optional. Share selectively — decide which skills to introduce, when, and how.
 
@@ -161,13 +161,13 @@ All skills are grounded in published design research:
 
 ## Workflow: Landing Page Example
 
-You're building a landing page in ClickFunnels or similar platform. Here's how the skills fit:
+You're building a landing page. Here's how the skills fit:
 
 1. **design-extract** → "Show me how Stripe structures opt-in pages"
    - Get Stripe's color palette, CTA button style, form layout
 
 2. **color-system-builder** → Input your brand color
-   - Generate full palette ready for ClickFunnels
+   - Generate full palette ready to use
 
 3. **layout-validator** → Describe hero + form + social proof
    - Check F-pattern, 8pt alignment, whitespace

@@ -48,7 +48,7 @@ Run this whenever you want the latest version (or set a monthly reminder).
 
 ---
 
-## For Ace Media Team (Optional, Individual Setup)
+## For Team Members (Optional, Individual Setup)
 
 ### Each Team Member: 5-Minute Setup
 
@@ -99,14 +99,12 @@ cd ~/design-skills
 
 # Initialize git (if not already done)
 git init
-git config user.name "Keith Ratner"
-git config user.email "admin@entremax.media"
 
 # Add all files
 git add .
 
 # First commit
-git commit -m "Initial commit: Five design skills for evidence-based design"
+git commit -m "Initial commit: Evidence-based design tools and frameworks"
 
 # Connect to GitHub (create repo at github.com/kratner/design-skills first)
 git remote add origin https://github.com/kratner/design-skills.git
@@ -251,7 +249,7 @@ nano ~/.claude/skills/design-skills/power-design-audit.md
 
 ### Fork for Team Customization
 
-If Ace Media wants to customize skills for your team:
+If your team wants to customize skills:
 
 1. **Fork on GitHub** (creates your own copy)
 2. **Clone your fork:** 
@@ -380,7 +378,7 @@ That's it. No cleanup required.
 **Want to share with team?**
 - See TEAM_SHARING.md
 - Provide the GitHub link
-- Each person follows "For Ace Media Team" section above
+- Each person follows "For Team Members" section above
 
 ---
 

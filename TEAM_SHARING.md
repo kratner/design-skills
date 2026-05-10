@@ -1,16 +1,16 @@
-# Sharing Design Skills with Ace Media Team
+# Sharing Design Skills with Your Team
 
 This file helps you decide which skills to share, when, and how to introduce them without mandating.
 
 ## Philosophy
 
-These are **your tools** for personal use and the Ace Media team's **optional reference**. No tool, process, or framework is universal — the goal is to offer proven approaches and let your team decide if they're useful.
+These are **your tools** for personal use and your team's **optional reference**. No tool, process, or framework is universal — the goal is to offer proven approaches and let your team decide if they're useful.
 
 ## Which Skills Are Most Team-Friendly?
 
 ### Tier 1: Safe to Introduce (Low Friction)
 
-These are self-explanatory and don't require a philosophy shift:
+These are self-explanatory and don't require a philosophy shift. Good for any team context:
 
 **power-design-audit**
 - What: Checklist against 10 design principles
@@ -99,7 +99,7 @@ If people are using the skills:
 **What to do:**
 - Create a shared doc: "Design Framework Keith Uses" with one-page summaries
 - Share the GitHub repo link in case people want to clone locally
-- Mention how you're using the skills in your own work (Ace Media pages, ClickFunnels, etc.)
+- Mention how you're using the skills in your own work (landing pages, projects, etc.)
 
 **What NOT to do:**
 - Don't make it a process requirement
@@ -207,33 +207,33 @@ That's fine. Some people:
 
 ---
 
-## Google Workspace Integration
+## Shared Collaboration Integration
 
-You work in a shared Google Workspace folder with Ace Media. Here's how to integrate design skills naturally:
+You work with a team on shared projects. Here's how to integrate design skills naturally:
 
-**Scenario 1: You finish a ClickFunnels page**
-- Share the page + a `DESIGN.md` file in the folder
+**Scenario 1: You finish a project**
+- Share the project + a `DESIGN.md` file in your shared space
 - Include a link to the power-design-audit results (if you want)
 - Someone curious will ask: "How did you do that?"
 
-**Scenario 2: Team collaborates on a landing page**
-- You suggest using design-extract to research how Stripe does opt-ins
+**Scenario 2: Team collaborates on a design**
+- You suggest using design-extract to research how similar brands solve the problem
 - Drop the repo link in the shared doc
 - Let people explore at their own pace
 
-**Scenario 3: Someone asks for color advice**
-- You can offer to run color-system-builder for them
+**Scenario 3: Someone asks for design advice**
+- You can offer to run color-system-builder or power-design-audit for them
 - Or teach them how to do it themselves
-- Or just give them the hex values from your output
+- Or just share the results
 
 ---
 
-## What NOT to Do in Shared Folders
+## What NOT to Do in Team Spaces
 
 ❌ Don't:
-- Post design audit results with a lecture
+- Post validation results with a lecture
 - Suggest people use a skill "correctly"
-- Create a shared DESIGN.md requirement
+- Create a mandatory DESIGN.md requirement
 - Make it feel like there's one way to do things
 
 ✅ Do:
@@ -244,28 +244,28 @@ You work in a shared Google Workspace folder with Ace Media. Here's how to integ
 
 ---
 
-## If Ace Media Wants to Adopt the Framework
+## If Your Team Wants to Adopt the Framework
 
 If the team says "We like this, let's use it," here's a path:
 
 1. **Document your current workflow** in a shared doc
-2. **Create a team README** with simplified explanations
+2. **Create a team guide** with simplified explanations
 3. **Define which skills are required vs. optional** (suggest: none required, all optional)
-4. **Set up a feedback loop:** Monthly: "How's this working for everyone?"
+4. **Set up a feedback loop:** Periodic check-ins: "How's this working for everyone?"
 5. **Stay flexible:** Rules should serve the team, not the other way around
 
-See next section for a template team README.
+See next section for a template team guide.
 
 ---
 
-## Template: Team README (If They Want It)
+## Template: Team Guide (If They Want It)
 
-If Ace Media asks to adopt the design skills officially:
+If your team asks to adopt the design skills officially:
 
 ```markdown
-# Ace Media Design Framework
+# Team Design Framework
 
-We use evidence-based design principles to validate landing pages 
+We use evidence-based design principles to validate designs 
 before launch. Framework is optional — it's a checklist, not law.
 
 ## Quick Start
@@ -275,9 +275,9 @@ before launch. Framework is optional — it's a checklist, not law.
 
 ## When to Use
 
-**color-system-builder:** Starting a new brand or campaign
+**color-system-builder:** Starting a new project or brand
 **power-design-audit:** Before finalizing a layout
-**design-extract:** Researching how competitors structure pages
+**design-extract:** Researching how competitors structure designs
 **layout-validator:** Catching structure issues early
 
 ## Team Guidelines
@@ -285,12 +285,12 @@ before launch. Framework is optional — it's a checklist, not law.
 1. Tools are optional. Use if helpful, ignore if not.
 2. No design is "wrong" if it breaks a rule — rules are heuristics.
 3. Feedback is about principles, not taste.
-4. Questions? Ask Keith or check the documentation.
+4. Questions? Check the documentation or ask.
 
 ## Feedback
 
 Using these tools? We'd love to know what's working, what's not.
-Share feedback in [Slack channel / shared doc].
+Share feedback in your team communication channel.
 ```
 
 ---

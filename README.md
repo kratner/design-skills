@@ -1,6 +1,6 @@
 # Design Skills
 
-Portable, evidence-based design tools and frameworks. Use in your personal projects, Ace Media work, or share selectively with your team. Extensible across platforms (Claude Code skills, web tools, Figma plugins, team documentation).
+Portable, evidence-based design tools and frameworks. Use in your personal projects or share selectively with your team. Extensible across platforms (Claude Code skills, web tools, Figma plugins, team documentation).
 
 ## Quick Start
 
@@ -88,22 +88,19 @@ Access 73 pre-built brand design systems instantly. Ask how any brand does somet
 
 ## Who This Is For
 
-**You (Keith):** Personal design work, ClickFunnels landing pages, demo reel projects. Full access to all skills, no restrictions.
+**Personal Design Work:** ClickFunnels landing pages, demo reels, client projects, branding work. Full access to all skills.
 
-**Ace Media Team:** Optional. You decide which skills to introduce, when, and how. No pressure to share everything — these are your tools first.
+**Team Collaboration:** Optional. Share selectively — decide which skills to introduce, when, and how.
 
-**Future Clients:** If you want to build a design system for a client project, these skills can generate DESIGN.md templates and validate against principles.
+**Design System Building:** Use these skills to generate DESIGN.md templates and validate projects against evidence-based principles.
 
 ## Installation
 
-### For You (Personal Use)
+### For Personal Use
 
 ```bash
 # One-time setup
 git clone https://github.com/kratner/design-skills ~/.claude/skills/design-skills
-cd ~/.claude/skills/design-skills
-git config user.email "admin@entremax.media"
-git config user.name "Keith Ratner"
 
 # Update anytime
 cd ~/.claude/skills/design-skills && git pull
@@ -118,7 +115,7 @@ Then in Claude Code:
 /use awesome-design-lookup
 ```
 
-### For Ace Media Team (Optional, Selective Sharing)
+### For Team Sharing (Optional)
 
 See `TEAM_SHARING.md` for how to:
 - Share individual skills without enforcing them
@@ -162,9 +159,9 @@ All skills are grounded in published design research:
 
 ---
 
-## Workflow: ClickFunnels Landing Page Example
+## Workflow: Landing Page Example
 
-You're building an Ace Media landing page in ClickFunnels. Here's how the skills fit:
+You're building a landing page in ClickFunnels or similar platform. Here's how the skills fit:
 
 1. **design-extract** → "Show me how Stripe structures opt-in pages"
    - Get Stripe's color palette, CTA button style, form layout
@@ -185,15 +182,15 @@ You're building an Ace Media landing page in ClickFunnels. Here's how the skills
 
 ---
 
-## Sharing with Ace Media Team
+## Sharing with Your Team
 
-**Scenario:** You've finished a ClickFunnels page using these skills and want to introduce the team to `power-design-audit`.
+**Scenario:** You've finished a project using these skills and want to introduce the team to `power-design-audit`.
 
 1. **Show, don't tell:** Use the skill in a team meeting, show the audit output
-2. **Explain the rules:** "We're checking against 10 design principles from researchers like Tufte and Duarte"
+2. **Explain the principles:** "We're checking against 10 design principles from researchers like Tufte and Duarte"
 3. **No mandates:** "This is optional — if it's useful, we can adopt it. If not, no worries"
 4. **Start small:** Introduce 1–2 skills first (power-design-audit + color-system-builder are lowest-friction)
-5. **Document:** If the team wants to adopt, create a shared TEAM.md with your preferred workflow
+5. **Document:** If the team wants to adopt, create a shared guide with your preferred workflow
 
 See `TEAM_SHARING.md` for templates and talking points.
 
@@ -227,8 +224,8 @@ See `TEAM_SHARING.md` for templates and talking points.
 
 1. **Clone the repo** (see Installation above)
 2. **Test one skill** in Claude Code (suggest starting with `power-design-audit`)
-3. **Use in your next ClickFunnels project** and see how it changes your workflow
-4. **Decide what to share with Ace Media** (or keep for personal use — no pressure)
+3. **Use in your next project** and see how it changes your workflow
+4. **Decide what to share with your team** (or keep for personal use — no pressure)
 5. **Contribute back** if you improve any skill (git push to your fork, PR welcome)
 
 ---

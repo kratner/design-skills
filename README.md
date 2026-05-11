@@ -17,6 +17,7 @@ git clone https://github.com/kratner/design-skills ~/.claude/skills/design-skill
 /use design-extract
 /use layout-validator
 /use awesome-design-lookup
+/use hyperframes-video-builder
 ```
 
 ## Current Skills
@@ -83,6 +84,19 @@ Access 73 pre-built brand design systems instantly. Ask how any brand does somet
 - Client references a brand you want to learn from
 
 **Example:** `/use awesome-design-lookup` → Ask "How does Stripe design CTAs?" → Get button anatomy, placement, hover states, and how to adapt it
+
+---
+
+### 6. **hyperframes-video-builder**
+Generate production-quality HTML5 videos using HyperFrames—landing page teasers, product demos, social ads, testimonials, explainers. Build seekable, frame-accurate videos with animation, captions, and audio. Export as MP4/WebM/MOV.
+
+**Use when:**
+- Building a social ad or product demo
+- Landing page needs animated teaser video
+- Creating testimonial or explainer content
+- Need pixel-perfect frame-accurate animation (no real-time capture)
+
+**Example:** `/use hyperframes-video-builder` → Describe social ad → Get HTML5 composition → `hyperframes render` → MP4
 
 ---
 
